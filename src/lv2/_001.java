@@ -9,18 +9,6 @@ import java.util.Arrays;
     str 에 나타나는 숫자 중 최소값과 최대값을 찾아 이를 "(최소값) (최대값)"형태의 문자열을 반환하는 함수, solution 을 완성하세요.
     예를들어 s가 "1 2 3 4"라면 "1 4"를 리턴하고, "-1 -2 -3 -4"라면 "-4 -1"을 리턴하면 됩니다.
 
-    public String solution(String s) {
-        String[] arr = s.split(" ");
-        int min = Integer.MAX_VALUE;
-        int max = Integer.MIN_VALUE;
-        for (String str : arr) {
-            int num = Integer.parseInt(str);
-            min = Math.min(min, num);
-            max = Math.max(max, num);
-        }
-        return min + " " + max;
-    }
-
  */
 public class _001 {
 

@@ -3,7 +3,6 @@ package lv2;
 import java.util.Arrays;
 
 /*
-
     < 최솟값 만들기 >
 
     길이가 같은 배열 A, B 두개가 있습니다. 각 배열은 자연수로 이루어져 있습니다.
