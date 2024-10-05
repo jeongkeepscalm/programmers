@@ -1,7 +1,7 @@
 package lv2;
 
-import java.util.Arrays;
-import java.util.stream.Stream;
+import java.util.ArrayDeque;
+import java.util.Deque;
 
 /*
     < 올바른 괄호 >
@@ -21,6 +21,37 @@ import java.util.stream.Stream;
  */
 public class _002 {
 
+    private static final int MAX_LENGTH = 100_000;
+
+    public static boolean solution(String str) {
+        if (str.length() > MAX_LENGTH) return false;
+        if (!isValidCharacters(str)) return false;
+        return areParenthesesBalanced(str);
+    }
+
+    private static boolean isValidCharacters(String str) {
+        return str.chars().allMatch(c -> c == '(' || c == ')');
+    }
+
+    private static boolean areParenthesesBalanced(String str) {
+        /*
+            Deque: Interface
+            ArrayDeque: 스택과 큐의 기능을 모두 제공. 성능 우수
+         */
+        Deque<Character> stack = new ArrayDeque<>();
+
+        for (char c : str.toCharArray()) {
+            if (c == '(') {
+                stack.push(c);
+            } else if (c == ')') {
+                if (stack.isEmpty() || stack.pop() != '(') {
+                    return false;
+                }
+            }
+        }
+
+        return stack.isEmpty();
+    }
 
 }
 
