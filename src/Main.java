@@ -10,9 +10,7 @@ public class Main {
 
         _005.solution("01110");
         _006.theBestSolution(15);
-
-
-
+        _007.solution(78);
 
 
     }
