@@ -27,6 +27,7 @@ public class _002 {
     public static boolean solution(String str) {
         if (str.length() > MAX_LENGTH) return false;
         if (!isValidCharacters(str)) return false;
+        System.out.println("002: " + areParenthesesBalanced(str));
         return areParenthesesBalanced(str);
     }
 

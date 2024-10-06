@@ -18,6 +18,7 @@ public class _001 {
                 .toArray();
         int max = Arrays.stream(numbers).max().getAsInt();
         int min = Arrays.stream(numbers).min().getAsInt();
+        System.out.println("001: " + min + " " + max);
         return min + " " + max;
     }
 

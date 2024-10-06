@@ -45,6 +45,7 @@ public class _003 {
             sum += arr1[i] * arr2[i];
         }
 
+        System.out.println("003: " + sum);
         return sum;
     }
 

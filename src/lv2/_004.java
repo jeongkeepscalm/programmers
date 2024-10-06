@@ -20,7 +20,7 @@ package lv2;
  */
 public class _004 {
 
-    public static String solution(String s) {
+    public static String theBestSolution(String s) {
         String answer = "";
         String[] sp = s.toLowerCase().split("");
         boolean flag = true;
@@ -30,11 +30,11 @@ public class _004 {
             flag = ss.equals(" ") ? true : false;
         }
 
+        System.out.println("004: " + answer);
         return answer;
     }
 
-
-    public static String mySolution(String str) {
+    public static String solution(String str) {
 
         StringBuilder stringBuilder = new StringBuilder();
 
@@ -63,8 +63,10 @@ public class _004 {
             stringBuilder.setLength(stringBuilder.length() - 1);
         }
 
+        System.out.println("004: " + stringBuilder.toString());
         return stringBuilder.toString();
     }
 
 }
+
 
