@@ -1,5 +1,7 @@
 package lv2;
 
+import java.util.Arrays;
+
 /*
     
     < 피보나치 수 >
@@ -22,9 +24,17 @@ package lv2;
  */
 public class _008 {
 
-    public static int solution(int n) {
-        int fixedValue = 1234567;
+    public static int theBestSolution(int n) {
+        int mod = 1234567;
+        int[] fibonacciArray = new int[n + 1];
+        fibonacciArray[0] = 0;
+        fibonacciArray[1] = 1;
 
+        for (int i = 2; i <= n; i++) {
+            fibonacciArray[i] = (fibonacciArray[i - 1] + fibonacciArray[i - 2]) % mod;
+        }
+
+        return fibonacciArray[n];
     }
 
 }

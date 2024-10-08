@@ -1,8 +1,5 @@
 import lv2.*;
 
-import java.time.LocalDate;
-import java.time.LocalTime;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -15,7 +12,7 @@ public class Main {
         _006.theBestSolution(15);
         _007.solution(78);
 
-        System.out.println("_008.solution(5) = " + _008.solution(5));
+        _008.theBestSolution(5);
 
     }
 }
