@@ -36,6 +36,7 @@ public class _009 {
             }
         }
 
+        System.out.println("009: " + stack.isEmpty());
         // 스택이 비어 있으면 모든 짝이 제거된 것이므로 1 반환, 그렇지 않으면 0 반환
         return stack.isEmpty() ? 1 : 0;
     }

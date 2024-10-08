@@ -34,6 +34,7 @@ public class _008 {
             fibonacciArray[i] = (fibonacciArray[i - 1] + fibonacciArray[i - 2]) % mod;
         }
 
+        System.out.println("008: " + fibonacciArray[n]);
         return fibonacciArray[n];
     }
 
