@@ -9,12 +9,12 @@ public class Main {
         _004.solution("3people unFollowed me");
         _005.solution("01110");
         _006.theBestSolution(15);
-        _007.solution(78);
-        _008.theBestSolution(5);
-        _009.theBestSolution("cdcd");
+        _007.solution(78);                                        // binary
+        _008.theBestSolution(5);                                    // array(fibonacci)
+        _009.theBestSolution("cdcd");                              // stack
         _010.theBestSolution(8,1);
-
-        _011.theBestSolution(5000);
+        _011.theBestSolution(5000);                                 // binary
+        _012.theBestSolution(new int[]{70, 50, 80, 50}, 100);     // pointer
 
 
     }
