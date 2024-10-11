@@ -16,6 +16,7 @@ public class Main {
         _011.theBestSolution(5000);                                 // binary
         _012.theBestSolution(new int[]{70, 50, 80, 50}, 100);     // pointer
 
+        _013.solution(new int[]{2, 6, 8, 14});
 
     }
 }
