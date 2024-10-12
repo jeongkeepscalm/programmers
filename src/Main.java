@@ -15,8 +15,10 @@ public class Main {
         _010.theBestSolution(8,1);
         _011.theBestSolution(5000);                                 // binary
         _012.theBestSolution(new int[]{70, 50, 80, 50}, 100);     // pointer
-
         _013.solution(new int[]{2, 6, 8, 14});
+        _014.solution(2, new String[]{"hello", "one", "even",
+                "never", "now", "world", "draw" });
+
 
     }
 }

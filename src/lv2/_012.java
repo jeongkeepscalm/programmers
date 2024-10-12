@@ -31,6 +31,7 @@ public class _012 {
             if (people[i] + people[j] <= limit)
                 ++i;
         }
+        System.out.println("012: " + (people.length - i));
         return people.length - i;
     }
 
