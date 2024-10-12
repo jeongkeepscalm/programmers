@@ -1,4 +1,4 @@
-package lv2;
+package level_2;
 
 import java.util.Arrays;
 

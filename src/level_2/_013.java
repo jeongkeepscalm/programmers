@@ -1,9 +1,8 @@
-package lv2;
+package level_2;
 
 import java.util.Arrays;
 
 /*
-
     < n개의 최소공배수 >
 
     두 수의 최소공배수(Least Common Multiple)란 입력된 두 수의 배수 중 공통이 되는 가장 작은 숫자를 의미합니다.

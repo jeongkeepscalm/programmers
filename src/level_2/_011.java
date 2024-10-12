@@ -1,7 +1,6 @@
-package lv2;
+package level_2;
 
 /*
-
     < 점프와 순간 이동 >
 
     OO 연구소는 한 번에 K 칸을 앞으로 점프하거나,

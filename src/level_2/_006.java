@@ -1,7 +1,6 @@
-package lv2;
+package level_2;
 
 /*
-    
     < 숫자의 표현 >
     
     Finn 은 요즘 수학공부에 빠져 있습니다.

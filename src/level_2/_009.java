@@ -1,9 +1,8 @@
-package lv2;
+package level_2;
 
 import java.util.Stack;
 
 /*
-
     < 짝지어 제거하기 >
 
     짝지어 제거하기는, 알파벳 소문자로 이루어진 문자열을 가지고 시작합니다.

@@ -1,9 +1,8 @@
-package lv2;
+package level_2;
 
 import java.util.Arrays;
 
 /*
-
     < 구명보트 >
 
     무인도에 갇힌 사람들을 구명보트를 이용하여 구출하려고 합니다.
