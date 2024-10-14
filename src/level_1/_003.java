@@ -28,7 +28,7 @@ public class _003 {
         // LongStream.iterate(x, i -> i + x):
         //      x 부터 시작하여 현재 값 i에 x를 더한 값을 반환
         long[] array = LongStream.iterate(x, i -> i + x).limit(n).toArray();
-        System.out.println("array = " + Arrays.toString(array));
+        System.out.println("003: " + Arrays.toString(array));
         return array;
     }
 

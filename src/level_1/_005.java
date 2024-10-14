@@ -26,7 +26,7 @@ public class _005 {
             answer += n % 10;
             n /= 10;
         }
-        System.out.println("answer = " + answer);
+        System.out.println("005: " + answer);
         return answer;
     }
 
