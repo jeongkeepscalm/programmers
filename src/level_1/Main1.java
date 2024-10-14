@@ -5,7 +5,10 @@ public class Main1 {
         _003.theOtherSolution(4, 3);         // stream
         _005.theBestSolution(123);              // while
         _006.solution(5);                       // stream
-        _008.solution(12345);
-        _009.solution("pPoooyY");
+        _008.solution(12345);                   // StringBuilder
+        _009.solution("pPoooyY");               // stream
+        _010.theBestSolution(118372);           // StringBuilder
+
+
     }
 }
