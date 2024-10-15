@@ -17,5 +17,7 @@ public class Main2 {
         _013.solution(new int[]{2, 6, 8, 14});
         _014.solution(2, new String[]{"hello", "one", "even",
                 "never", "now", "world", "draw" });
+        _015.solution(6, new int[]{1, 3, 2, 5, 4, 5, 2, 3});
+
     }
 }
