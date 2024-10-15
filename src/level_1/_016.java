@@ -13,4 +13,14 @@ package level_1;
     signs[i] 가 참이면 absolutes[i] 의 실제 정수가 양수임을, 그렇지 않으면 음수임을 의미합니다.
  */
 public class _016 {
+
+    public int solution(int[] absolutes, boolean[] signs) {
+        int sum = 0;
+        for (int i = 0; i < signs.length; i++) {
+            sum += signs[i] ? absolutes[i] : absolutes[i] * -1;
+        }
+        System.out.println("sum = " + sum);
+        return sum;
+    }
+
 }
