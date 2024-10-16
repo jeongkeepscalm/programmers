@@ -19,5 +19,7 @@ public class Main2 {
                 "never", "now", "world", "draw" });
         _015.solution(6, new int[]{1, 3, 2, 5, 4, 5, 2, 3});
 
+        _016.theBestSolution(4);
+
     }
 }
