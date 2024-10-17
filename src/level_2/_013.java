@@ -52,7 +52,6 @@ public class _013 {
         return n * m / gcd(n, m);
     }
 
-
     // mine
     public static int solution(int[] arr) {
         Arrays.sort(arr);

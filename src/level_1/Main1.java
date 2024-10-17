@@ -1,5 +1,13 @@
 package level_1;
 
+import level_1._11_to_20.*;
+import level_1._1_to_10.*;
+import level_1._21_to_30.*;
+import level_1._31_to_40._031;
+import level_1._31_to_40._032;
+import level_1._31_to_40._034;
+import level_1._31_to_40._035;
+
 public class Main1 {
     public static void main(String[] args) {
         _003.theOtherSolution(4, 3);                     // stream
@@ -19,7 +27,13 @@ public class Main1 {
                 (new int[]{-1, 0, 1}, new int[]{1, 0, -1});     // stream
         _023.theBestSolution("qwer");
         _025.theOtherSolution("Zbcdefg");                   // basic
+        _027.theBestSolution("0a123");                       // exception
+        _028.theBestSolution(new int[][]{{1, 2}, {2, 3}}        // array basic
+                , new int[][]{{3, 4}, {5, 6}});
+        _032.theBestSolution(new int[]{2,2,3,3}, 10);
 
+        _034.solution("3141592", "271");
 
+        _035.theBestSolution("try hello world");
     }
 }
