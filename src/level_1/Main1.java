@@ -32,10 +32,13 @@ public class Main1 {
         _032.theBestSolution(new int[]{2,2,3,3}, 10);
         _034.solution("3141592", "271");
         _035.theBestSolution("try hello world");
-        _037.theBestSolution(new int[][]                        // ★
+        _037.theBestSolution(new int[][]                        // math.max
                 {{10, 7}, {12, 3}, {8, 15}
                         , {14, 7}, {5, 15}});
+        _038.solution("a B z", 4);                        // stream
+        _038.theBestSolution("a B z", 4);                 // char
+        _039.theBestSolution("banana");                       // map
 
-
+        _040.solution("139");
     }
 }

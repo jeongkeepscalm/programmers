@@ -1,4 +1,8 @@
 package level_1._31_to_40;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
 /*
     < 시저 암호 >
 
@@ -14,4 +18,48 @@ package level_1._31_to_40;
     n은 1 이상, 25이하인 자연수입니다.
  */
 public class _038 {
+
+    public static String theBestSolution(String s, int n) {
+        String result = "";
+        n = n % 26;
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+            if (Character.isLowerCase(ch)) {
+                ch = (char) ((ch - 'a' + n) % 26 + 'a');
+            } else if (Character.isUpperCase(ch)) {
+                ch = (char) ((ch - 'A' + n) % 26 + 'A');
+            }
+            result += ch;
+        }
+        System.out.println("038: " + result);
+        return result;
+    }
+
+    public static String solution(String s, int n) {
+
+        List<Integer> list = s.chars()
+                .map(v -> {
+                    if (65 <= v && v <= 90) {
+                        if (v + n > 90) {
+                            v = 65 + (v + n - 1 - 90);
+                        } else {
+                            v = v + n;
+                        }
+                    }
+                    if (97 <= v && v <= 122) {
+                        if (v + n > 122) {
+                            v = 97 + (v + n - 1 - 122);
+                        } else {
+                            v = v + n;
+                        }
+                    }
+                    return v;
+                })
+                .boxed().collect(Collectors.toList());
+        String answer = list.stream()
+                .map(Character::toString)
+                .collect(Collectors.joining(""));
+        System.out.println("038: " + answer);
+        return answer;
+    }
 }

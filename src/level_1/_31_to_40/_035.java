@@ -25,7 +25,7 @@ public class _035 {
             sb.append(cnt % 2 == 0 ? ss.toLowerCase() : ss.toUpperCase());
         }
         answer = sb.toString();
-        System.out.println("answer = " + answer);
+        System.out.println("035: " + answer);
         return answer;
     }
 }
