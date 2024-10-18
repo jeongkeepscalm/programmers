@@ -49,8 +49,7 @@ public class _039 {
             }
         }
         */
-        System.out.println("map = " + map);
-        System.out.println("answer = " + Arrays.toString(answer));
+        System.out.println("039: " + Arrays.toString(answer));
         return answer;
     }
 }
