@@ -1,4 +1,4 @@
-package level_2;
+package level_2._1_to_10;
 
 /*
     < 피보나치 수 >

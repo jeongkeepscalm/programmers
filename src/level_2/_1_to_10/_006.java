@@ -1,4 +1,4 @@
-package level_2;
+package level_2._1_to_10;
 
 /*
     < 숫자의 표현 >

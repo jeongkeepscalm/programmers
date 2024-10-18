@@ -1,4 +1,4 @@
-package level_2;
+package level_2._1_to_10;
 
 /*
     < JadenCase 문자열 만들기 >

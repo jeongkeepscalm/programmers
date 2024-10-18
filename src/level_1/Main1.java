@@ -7,6 +7,7 @@ import level_1._31_to_40.*;
 import level_1._41_to_50._041;
 import level_1._41_to_50._042;
 import level_1._41_to_50._043;
+import level_1._41_to_50._044;
 
 import java.util.Scanner;
 
@@ -42,9 +43,11 @@ public class Main1 {
         _038.theBestSolution("a B z", 4);                 // char
         _039.theBestSolution("banana");                      // map
         _041.solution(new int[]{2, 1, 3, 4, 1});                // stream
-
         _042.solution(new int[]{1, 5, 2, 6, 3, 7, 4}            // System.arraycopy() || Arrays.copyOfRange()
                 , new int[][]{{2, 5, 3}, {4, 4, 1}, {1, 7, 3}});
+        _044.theOtherSolution(new String[]                      // ★ comparator
+                {"dfs", "abc", "axx"}, 0);
+
 
     }
 }
