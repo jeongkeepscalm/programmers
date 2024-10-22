@@ -2,18 +2,19 @@ package level_1._41_to_50;
 
 public class _045 {
     public static int solution(int give, int get, int own) {
+
         int remaining = 0;
         int answer = 0;
 
         while (own > give) {
-
             answer += (own / give) * get;
             if (own % give != 0) {
                 remaining = own % give;
             }
-            own /= give;
+            own = own / give + remaining;
         }
-        if (own + remaining >= give) answer++;
+        if (own == give) answer++;
+
 
         System.out.println("own = " + own);
         System.out.println("remaining = " + remaining);
