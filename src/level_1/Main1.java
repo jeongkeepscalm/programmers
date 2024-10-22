@@ -4,10 +4,7 @@ import level_1._11_to_20.*;
 import level_1._1_to_10.*;
 import level_1._21_to_30.*;
 import level_1._31_to_40.*;
-import level_1._41_to_50._041;
-import level_1._41_to_50._042;
-import level_1._41_to_50._043;
-import level_1._41_to_50._044;
+import level_1._41_to_50.*;
 
 import java.util.Scanner;
 
@@ -48,6 +45,6 @@ public class Main1 {
         _044.theOtherSolution(new String[]                      // ★ comparator
                 {"dfs", "abc", "axx"}, 0);
 
-
+        _045.solution(2, 1, 20);
     }
 }
