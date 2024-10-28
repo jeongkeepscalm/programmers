@@ -44,7 +44,15 @@ public class Main1 {
                 , new int[][]{{2, 5, 3}, {4, 4, 1}, {1, 7, 3}});
         _044.theOtherSolution(new String[]                      // ★ comparator
                 {"dfs", "abc", "axx"}, 0);
+        _045.theOtherSolution(3, 1, 20);          // * 콜라 문제
 
-        _045.solution(2, 1, 20);
+
+        _046.theBestSolution(6                                  // Binary
+                , new int[]{46, 33, 33 ,22, 31, 50}
+                , new int[]{27 ,56, 19, 14, 14, 10});
+
+        _047.theBestSolution(4, new int[]{0, 300, 40, 300, 20, 70, 150, 50, 500, 1000});
+
+
     }
 }

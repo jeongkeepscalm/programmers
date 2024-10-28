@@ -1,24 +1,15 @@
 package level_1._41_to_50;
 
+/*
+    < 콜라 문제 >
+ */
 public class _045 {
-    public static int solution(int give, int get, int own) {
-
-        int remaining = 0;
+    public static int theOtherSolution(int give, int get, int own) {
         int answer = 0;
-
-        while (own > give) {
+        while (own / give > 0) {
             answer += (own / give) * get;
-            if (own % give != 0) {
-                remaining = own % give;
-            }
-            own = own / give + remaining;
+            own = ((own / give) * get) + (own % give);
         }
-        if (own == give) answer++;
-
-
-        System.out.println("own = " + own);
-        System.out.println("remaining = " + remaining);
-        System.out.println("answer = " + answer);
         return answer;
     }
 }
