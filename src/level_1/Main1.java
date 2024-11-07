@@ -53,6 +53,6 @@ public class Main1 {
 
         _047.theBestSolution(4, new int[]{0, 300, 40, 300, 20, 70, 150, 50, 500, 1000});
 
-
+        _048.solution(new String[]{"may", "kein", "kain", "radi"}, new int[]{5, 10, 1, 3}, new String[][]{{"may"}, {"kein", "deny", "may"}, {"kon", "coni"}});
     }
 }
