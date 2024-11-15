@@ -36,7 +36,7 @@ public class _047 {
             }
             answer[i] = priorityQueue.peek();
         }
-        System.out.println("priorityQueue = " + priorityQueue);
+        System.out.println("047: " + priorityQueue);
         return answer;
 
     }

@@ -45,14 +45,17 @@ public class Main1 {
         _044.theOtherSolution(new String[]                      // ★ comparator
                 {"dfs", "abc", "axx"}, 0);
         _045.theOtherSolution(3, 1, 20);          // * 콜라 문제
-
-
         _046.theBestSolution(6                                  // Binary
                 , new int[]{46, 33, 33 ,22, 31, 50}
                 , new int[]{27 ,56, 19, 14, 14, 10});
+        _047.theBestSolution(4
+                , new int[]{0, 300, 40, 300, 20, 70, 150, 50, 500, 1000});
+        _049.solution(new String[]{"i", "drink", "water"}       // Deque
+                , new String[]{"want", "to"}
+                , new String[]{"i", "want", "to", "drink", "water"});
+        _050.theBestSolution(new int[]{1, 2, 3, 2});            // stream
 
-        _047.theBestSolution(4, new int[]{0, 300, 40, 300, 20, 70, 150, 50, 500, 1000});
 
-        _048.solution(new String[]{"may", "kein", "kain", "radi"}, new int[]{5, 10, 1, 3}, new String[][]{{"may"}, {"kein", "deny", "may"}, {"kon", "coni"}});
     }
+
 }

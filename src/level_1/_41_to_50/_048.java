@@ -22,22 +22,24 @@ public class _048 {
             int value = yearning[i];
             map.put(key, value);
         }
-        System.out.println("map = " + map);
 
-            for (int i = 0; i < length; i++) {
-                int sum = 0;
+        for (int i = 0; i < length; i++) {
+            int sum = 0;
+            int len = photo[i].length;
+
+            for (int j = 0; j < len; j++) {
                 try {
-                    for (int j = 0; j < photo[i].length; j++) {
-                        Integer value = map.get(photo[i][j]);
-                        sum += value;
-                    }
+                    String str = photo[i][j];
+                    Integer score = map.get(photo[i][j]);
+                    sum += score;
                 } catch (NullPointerException e) {
                     continue;
                 }
-                answer[i] = sum;
             }
+            answer[i] = sum;
+        }
 
-        System.out.println("answer = " + Arrays.toString(answer));
+        System.out.println("048: " + Arrays.toString(answer));
         return answer;
     }
 }
