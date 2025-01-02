@@ -7,6 +7,7 @@ import level_1._31_to_40.*;
 import level_1._41_to_50.*;
 import level_1._51_to_60._051;
 import level_1._51_to_60._052;
+import level_1._51_to_60._053;
 
 import java.util.Scanner;
 
@@ -60,7 +61,7 @@ public class Main1 {
         _051.theOtherSolution(5, 24);                     // 요일 구하기
         _052.theBestSolution(10, 3, 2);      // 약수의 갯수 구하기
 
-
+        _053.solution(new int[]{1,2,3,4,5});
     }
 
 }
