@@ -8,6 +8,7 @@ import level_1._41_to_50.*;
 import level_1._51_to_60._051;
 import level_1._51_to_60._052;
 import level_1._51_to_60._053;
+import level_1._51_to_60._054;
 
 import java.util.Scanner;
 
@@ -62,6 +63,9 @@ public class Main1 {
         _052.theBestSolution(10, 3, 2);      // 약수의 갯수 구하기
 
         _053.solution(new int[]{1,2,3,4,5});
+        _054.theBestSolution(4, 3, new int[]{4, 1, 2, 2, 4, 4, 4, 4, 1, 2, 4, 2});
+
+
     }
 
 }
