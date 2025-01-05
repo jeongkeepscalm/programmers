@@ -5,10 +5,7 @@ import level_1._1_to_10.*;
 import level_1._21_to_30.*;
 import level_1._31_to_40.*;
 import level_1._41_to_50.*;
-import level_1._51_to_60._051;
-import level_1._51_to_60._052;
-import level_1._51_to_60._053;
-import level_1._51_to_60._054;
+import level_1._51_to_60.*;
 
 import java.util.Scanner;
 
@@ -65,7 +62,7 @@ public class Main1 {
         _053.solution(new int[]{1,2,3,4,5});
         _054.theBestSolution(4, 3, new int[]{4, 1, 2, 2, 4, 4, 4, 4, 1, 2, 4, 2});
 
-
+        _055.solution(10);
     }
 
 }
