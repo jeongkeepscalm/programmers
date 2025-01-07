@@ -63,6 +63,8 @@ public class Main1 {
         _054.theBestSolution(4, 3, new int[]{4, 1, 2, 2, 4, 4, 4, 4, 1, 2, 4, 2});
 
         _055.solution(10);
+
+        _056.solution(new int[]{1,2,7,6,4});
     }
 
 }
