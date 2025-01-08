@@ -31,7 +31,7 @@ public class _055 {
             }
         }
 
-        System.out.println("count = " + count);
+        System.out.println("055: " + count);
 
         int answer = 0;
         for (int i = 2; i <= n; i++) {

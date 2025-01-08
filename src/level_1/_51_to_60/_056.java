@@ -8,38 +8,33 @@ import java.util.HashSet;
  */
 public class _056 {
 
-    public static int solution(int[] nums) {
+    public static int theBestSolution(int[] nums) {
         int answer = 0;
-
         int length = nums.length;
 
-        HashSet<Integer> set = new HashSet<>();
-
-        for (int i = 0; i < length; i++) {
-            for (int j = 0; j < length; j++) {
-                if (i == j) continue;
-                for (int k = 0; k < length; k++) {
-                    if (i == k || j == k) continue;
+        // 모든 서로 다른 3개 조합에 대해 처리
+        for (int i = 0; i < length - 2; i++) {
+            for (int j = i + 1; j < length - 1; j++) {
+                for (int k = j + 1; k < length; k++) {
                     int numberComputed = nums[i] + nums[j] + nums[k];
-                    set.add(numberComputed);
+                    if (isPrime(numberComputed)) {
+                        answer++;
+                    }
                 }
             }
         }
 
-
-        for (Integer num : set) {
-            if (isPrime(num)) answer++;
-        }
+        System.out.println("056: " + answer);
 
         return answer;
     }
 
     public static boolean isPrime(int n) {
-        if (n <= 1) return false; // 1 이하의 숫자는 소수가 아님
-        for (int i = 2; i <= Math.sqrt(n); i++) { // 2부터 √n까지 검사
-            if (n % i == 0) return false; // 나누어 떨어지면 소수가 아님
+        if (n <= 1) return false;
+        for (int i = 2; i <= Math.sqrt(n); i++) {
+            if (n % i == 0) return false;
         }
-        return true; // 나누어 떨어지지 않으면 소수
+        return true;
     }
 
 }
