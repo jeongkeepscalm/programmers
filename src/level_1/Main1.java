@@ -65,8 +65,9 @@ public class Main1 {
         _055.solution(10);
 
         _056.theBestSolution(new int[]{1,2,7,6,4});
-        _057.solution(4, 1, new int[]{1,2,3,4});
+        _057.theOtherSolution2(4, 1, new int[]{1,2,3,4});
 
+        _058.solution(5, new int[]{2, 1, 2, 6, 2, 4, 3, 3});
     }
 
 }

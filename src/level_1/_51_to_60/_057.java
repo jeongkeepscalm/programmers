@@ -25,7 +25,7 @@ public class _057 {
         return answer;
     }
 
-    public int theOtherSolution(int n, int m, int[] section) {
+    public static int theOtherSolution(int n, int m, int[] section) {
         int roller = section[0];
         int cnt = 1;
         for(int i = 1; i < section.length; i++) {
@@ -38,7 +38,7 @@ public class _057 {
     }
 
 
-    public int theOtherSolution2(int n, int m, int[] section) {
+    public static int theOtherSolution2(int n, int m, int[] section) {
         int maxPainted = 0, cntPaint = 0;
         for (int point : section) {
             if (maxPainted <= point) {
