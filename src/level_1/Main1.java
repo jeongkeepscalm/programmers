@@ -68,6 +68,7 @@ public class Main1 {
         _057.theOtherSolution2(4, 1, new int[]{1,2,3,4});
 
         _058.solution(5, new int[]{2, 1, 2, 6, 2, 4, 3, 3});
+        _059.solution(new String[]{"ayaye", "uuu", "yeye", "yemawoo", "ayaayaa"});
     }
 
 }
