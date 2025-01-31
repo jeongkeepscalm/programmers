@@ -6,6 +6,7 @@ import level_1._21_to_30.*;
 import level_1._31_to_40.*;
 import level_1._41_to_50.*;
 import level_1._51_to_60.*;
+import level_1._61_to_70._061;
 
 public class Main1 {
     public static void main(String[] args) {
@@ -60,8 +61,9 @@ public class Main1 {
         _057.theOtherSolution2(4, 1, new int[]{1, 2, 3, 4});
 
         _058.solution(5, new int[]{2, 1, 2, 6, 2, 4, 3, 3});
-        _059.solution(new String[]{"ayaye", "uuu", "yeye", "yemawoo", "ayaayaa"});
         _060.theBestSolution(new int[]{50, 50}, new int[]{100, 241});
+
+        _061.solution("1D2S3T*");
     }
 
 }
