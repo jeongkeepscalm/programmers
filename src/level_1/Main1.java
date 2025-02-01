@@ -65,7 +65,7 @@ public class Main1 {
 
         _061.solution("1D2S3T*"); // pattern
         _063.theBestSolution("aaabbaccccabba");
-
+        _064.theBestSolution("aukks", "wbqd", 5);
 
     }
 
