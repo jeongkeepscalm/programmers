@@ -67,6 +67,10 @@ public class Main1 {
         _063.theBestSolution("aaabbaccccabba");
         _064.theBestSolution("aukks", "wbqd", 5);
 
+        _065.solution(new String[][]    {{"blue", "red", "orange", "red"}
+                , {"red", "red", "blue", "orange"}
+                , {"blue", "orange", "red", "red"}
+                , {"orange", "orange", "red", "blue"}}, 1, 1);
     }
 
 }
