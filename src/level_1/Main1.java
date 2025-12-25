@@ -71,6 +71,8 @@ public class Main1 {
                 , {"red", "red", "blue", "orange"}
                 , {"blue", "orange", "red", "red"}
                 , {"orange", "orange", "red", "blue"}}, 1, 1);
+        _066.solution(new String[]{"leo", "kiki", "eden"}, new String[]{"eden", "kiki"});
+
     }
 
 }
